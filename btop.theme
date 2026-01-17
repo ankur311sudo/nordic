@@ -1,87 +1,93 @@
-# Main background
-theme[main_bg]="#111c18"
+# ===============================
+# Base background / foreground
+# ===============================
 
-# Main text color
-theme[main_fg]="#F7E8B2"
+# Main background (keep empty for terminal transparency if you want)
+theme[main_bg]="#061115"
 
-# Title color for boxes
-theme[title]="#D6D5BC"
+# Main text
+theme[main_fg]="#D9D7D6"
 
-# Highlight color for keyboard shortcuts
-theme[hi_fg]="#E67D64"
+# Box titles
+theme[title]="#79AAEB"        # base0D (blue accent)
 
-# Background color of selected items
-theme[selected_bg]="#364538"
+# Keyboard shortcut highlights
+theme[hi_fg]="#C488EC"        # base0E (purple)
 
-# Foreground color of selected items
-theme[selected_fg]="#DEB266"
+# Selected process background / foreground
+theme[selected_bg]="#192428"  # base03
+theme[selected_fg]="#EDEBEA"  # base07
 
-# Color of inactive/disabled text
-theme[inactive_fg]="#32473B"  
+# Inactive / disabled text
+theme[inactive_fg]="#455054"  # muted grey
 
-# Color of text appearing on top of graphs
-theme[graph_text]="#E6D8BA"
+# Misc process info (mini graphs, status)
+theme[proc_misc]="#6791C9"    # base0C (cyan-blue)
 
-# Misc colors for processes box
-theme[proc_misc]="#E6D8BA"
+# ===============================
+# Box outlines & dividers
+# ===============================
 
-# Cpu box outline color
-theme[cpu_box]="#81B8A8"
+theme[cpu_box]="#ECD28B"
+theme[mem_box]="#ECD28B"
+theme[net_box]="#ECD28B"
+theme[proc_box]="#ECD28B"
 
-# Memory/disks box outline color
-theme[mem_box]="#81B8A8"
+# Internal dividers (slightly muted)
+theme[div_line]="#E9967E"
 
-# Net up/down box outline color
-theme[net_box]="#81B8A8"
 
-# Processes box outline color
-theme[proc_box]="#81B8A8"
+# ===============================
+# Temperature graph
+# ===============================
 
-# Box divider line and small boxes line color
-theme[div_line]="#81B8A8"
+theme[temp_start]="#82C29C"   # base0B (cool)
+theme[temp_mid]="#ECD28B"     # base09 (warm)
+theme[temp_end]="#F26E74"     # base08 (hot)
 
-# Temperature graph colors
-theme[temp_start]="#BFD99A"
-theme[temp_mid]="#E1B55E"
-theme[temp_end]="#DBB05C"
+# ===============================
+# CPU usage graph
+# ===============================
 
-# CPU graph colors
-theme[cpu_start]="#5F8C86"
-theme[cpu_mid]="#629C89"
-theme[cpu_end]="#76AD98"
+theme[cpu_start]="#6791C9"    # base0C
+theme[cpu_mid]="#79AAEB"      # base0D
+theme[cpu_end]="#C488EC"      # base0E
 
-# Mem/Disk free meter
-theme[free_start]="#5F8C86"
-theme[free_mid]="#629C89"
-theme[free_end]="#76AD98"
+# ===============================
+# Memory / Disk meters
+# ===============================
 
-# Mem/Disk cached meter
-theme[cached_start]="#5F8C86"
-theme[cached_mid]="#629C89"
-theme[cached_end]="#76AD98"
+# Free
+theme[free_start]="#82C29C"
+theme[free_mid]="#79AAEB"
+theme[free_end]="#EDEBEA"
 
-# Mem/Disk available meter
-theme[available_start]="#5F8C86"
-theme[available_mid]="#629C89"
-theme[available_end]="#76AD98"
+# Cached
+theme[cached_start]="#6791C9"
+theme[cached_mid]="#79AAEB"
+theme[cached_end]="#EDEBEA"
 
-# Mem/Disk used meter
-theme[used_start]="#5F8C86"
-theme[used_mid]="#629C89"
-theme[used_end]="#76AD98"
+# Available
+theme[available_start]="#82C29C"
+theme[available_mid]="#79AAEB"
+theme[available_end]="#EDEBEA"
 
-# Download graph colors
-theme[download_start]="#75BBB3"
-theme[download_mid]="#61949A"
-theme[download_end]="#215866"
+# Used
+theme[used_start]="#E9967E"   # base0A
+theme[used_mid]="#ECD28B"     # base09
+theme[used_end]="#F26E74"     # base08
 
-# Upload graph colors
-theme[upload_start]="#215866"
-theme[upload_mid]="#91C080"
-theme[upload_end]="#549E6A"
+# ===============================
+# Network graphs
+# ===============================
 
-# Process box color gradient for threads, mem and cpu usage
-theme[process_start]="#72CFA3"
-theme[process_mid]="#D0D494"
-theme[process_end]="#DB9F9C"
+# Download
+theme[download_start]="#82C29C"
+theme[download_mid]="#79AAEB"
+theme[download_end]="#C488EC"
+
+# Upload
+theme[upload_start]="#E9967E"
+theme[upload_mid]="#ECD28B"
+theme[upload_end]="#F26E74"
 
