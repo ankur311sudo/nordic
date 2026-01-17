@@ -1,0 +1,29 @@
+
+# Core colors
+accent = "#79AAEB"        # base0D
+cursor = "#ECD28B"        # base09
+foreground = "#EDEBEA"    # base07
+background = "#0D181B"    # base00
+
+selection_foreground = "#061115"
+selection_background = "#EDEBEA"
+
+# ANSI 16-color palette (base16 mapped)
+color0  = "#061115"  # base00
+color1  = "#D9D7D6"  # base05
+color2  = "#E3E1E0"  # base06
+color3  = "#EDEBEA"  # base07
+color4  = "#F26E74"  # base08
+color5  = "#ECD28B"  # base09
+color6  = "#E9967E"  # base0A
+color7  = "#82C29C"  # base0B
+
+color8  = "#6791C9"  # base0C
+color9  = "#79AAEB"  # base0D
+color10 = "#C488EC"  # base0E
+color11 = "#F16269"  # base0F
+color12 = "#0C171B"  # base01
+color13 = "#101B1F"  # base02
+color14 = "#192428"  # base03
+color15 = "#212C30"  # base04
+
