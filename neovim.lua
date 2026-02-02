@@ -20,7 +20,7 @@ local M = {
 				-- Base16 / Base30 palette
 				-- ======================
 				local colors = {
-					bg = "#061115", -- base00
+					bg = "#1a242b", -- base00
 					fg = "#D9D7D6", -- base05
 
 					primary = "#F26E74", -- base08 (keywords)
@@ -39,7 +39,7 @@ local M = {
 					subtle = "#192428", -- selection
 					dark = "#0C171B", -- cursorline
 					border = "#222D31",
-					selection = "#192428",
+					selection = "#3d5a63",
 				}
 
 				vim.cmd("highlight clear")
